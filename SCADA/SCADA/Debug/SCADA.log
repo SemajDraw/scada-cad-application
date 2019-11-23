@@ -1,0 +1,23 @@
+﻿Build started 02/05/2017 11:01:13.
+     1>Project "Z:\3rd year\Project\SCADAmodcctv\ProjectUpdates\DOConnor_DT0083 (D)\SCADA_VS2010\SCADA\SCADA.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SCADA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\SCADA.unsuccessfulbuild".
+         Touching "Debug\SCADA.lastbuildstate".
+     1>Done Building Project "Z:\3rd year\Project\SCADAmodcctv\ProjectUpdates\DOConnor_DT0083 (D)\SCADA_VS2010\SCADA\SCADA.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.18

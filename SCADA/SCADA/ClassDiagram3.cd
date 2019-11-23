@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseComponent">
+    <Position X="15.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAZBAgAAABYIAAAAJIGBACAAhAEkAAAFEDhB2CBByE=</HashCode>
+      <FileName>BaseComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCTVCamera">
+    <Position X="13.25" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" FixedFromPoint="true">
+      <Path>
+        <Point X="15.25" Y="11.188" />
+        <Point X="14.75" Y="11.188" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAIAAAAAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>CCTVCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComPort">
+    <Position X="11.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAABAAAAFAABAIAAAAIAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="19" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAAEAQAA=</HashCode>
+      <FileName>ComponentList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="List">
+    <Position X="19.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIigAABAAAAAAAAiAAAAEgAAAAAAIBAAAIEAAQQAA4=</HashCode>
+      <FileName>ComponentList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComTransact">
+    <Position X="11.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAEAQAAgAAAAACAAQAAgABAABAIAAQAAAAAAQ=</HashCode>
+      <FileName>ComPortTransactions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CornerPipe">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAEAAAAAg=</HashCode>
+      <FileName>CornerPipe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossJunction">
+    <Position X="15.25" Y="20.75" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="16" Y="20.324" />
+        <Point X="16" Y="20.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAIAAAAQAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrossJunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HydraulicValve">
+    <Position X="13.25" Y="16.5" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="15.25" Y="17.405" />
+        <Point X="14.75" Y="17.405" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAIAAAAAABAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HydraulicValve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IronPipe">
+    <Position X="13.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAKAAAAAAAAEAAAAAAAAABAAAAA=</HashCode>
+      <FileName>IronPipe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PneumaticPump">
+    <Position X="17.25" Y="14.5" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="16.75" Y="15.405" />
+        <Point X="17.25" Y="15.405" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAQAAEAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>PneumaticPump.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PressureGauge">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PressureGauge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SanitizationDrain">
+    <Position X="17" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="16" Y="10.5" />
+        <Point X="16" Y="9.999" />
+        <Point X="17.75" Y="9.999" />
+        <Point X="17.75" Y="9.56" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAACAAAAIAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SanitizationDrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StorageTank">
+    <Position X="17.25" Y="16.5" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="16.75" Y="17.405" />
+        <Point X="17.25" Y="17.405" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAEAAAEAAAAAAAAACA=</HashCode>
+      <FileName>StorageTank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuspendedConcreteGroundFloor">
+    <Position X="13.25" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true">
+      <Path>
+        <Point X="15.25" Y="13.059" />
+        <Point X="14.75" Y="13.059" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>SuspendedConcreteGroundFloor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreeWayJunction">
+    <Position X="17.25" Y="12.25" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="16.75" Y="13.062" />
+        <Point X="17.25" Y="13.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAIAAAAAAABEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ThreeWayJunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwoWayJunction">
+    <Position X="17.25" Y="10.25" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.75" Y="11.188" />
+        <Point X="17" Y="11.188" />
+        <Point X="17" Y="11.188" />
+        <Point X="17.25" Y="11.188" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAIQAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TwoWayJunction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T_Junction">
+    <Position X="13.25" Y="14.25" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="15.25" Y="15.625" />
+        <Point X="15" Y="15.625" />
+        <Point X="15" Y="15.625" />
+        <Point X="14.75" Y="15.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAICAAAACAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T_Junction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterSource">
+    <Position X="17.25" Y="18.75" Width="1.5" />
+    <InheritanceLine Type="BaseComponent" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.75" Y="19.562" />
+        <Point X="17.25" Y="19.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAIAAAAAAAAEAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>WaterSource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="orientation2">
+    <Position X="17.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>BaseComponent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
